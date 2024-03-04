@@ -1,7 +1,7 @@
 //chilometri del passeggero 
 const km = 500 //numb
 
-console.log("chilometri passeggero",km);
+console.log("chilometri passeggero",km, "km");
 
 
 
@@ -10,7 +10,7 @@ console.log("chilometri passeggero",km);
 //prezzo del biglietto in base ai km (0.21km)
 const prezzo = (km * 0.21); 
 
-console.log("prezzo standard",prezzo);
+console.log("prezzo standard",prezzo, "euro");
 
 //sconto dei minorenni 20%
 //sconto 40% per over 65
