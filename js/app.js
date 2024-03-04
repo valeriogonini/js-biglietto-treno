@@ -1,5 +1,5 @@
 //chilometri del passeggero 
-const km = 10 //numb
+const km = 500 //numb
 
 console.log("chilometri passeggero",km);
 
@@ -8,7 +8,7 @@ console.log("chilometri passeggero",km);
 
 
 //prezzo del biglietto in base ai km (0.21km)
-const prezzo = (km * 0,21); 
+const prezzo = (km * 0.21); 
 
 console.log("prezzo standard",prezzo);
 
@@ -16,15 +16,15 @@ console.log("prezzo standard",prezzo);
 //sconto 40% per over 65
 
 //sconto dei minorenni 20%
-let prezzominor20 = parseFloat( prezzo * 0.2 )
+let prezzominor20 = parseFloat(prezzo * 0.2)
 let prezzoscontato20 = prezzo - prezzominor20 ;
 
-console.log("sconto 20% minorenni",prezzoscontato20);
+console.log("sconto 20% minorenni",prezzoscontato20, "euro");
 //sconto 40% per over 65
-let prezzominor40 = parseFloat( prezzo * 0.4 )
+let prezzominor40 = parseFloat(prezzo * 0.4)
 let prezzoscontato40 = prezzo - prezzominor40 ;
 
-console.log("sconto 40% over 65",prezzoscontato40);
+console.log("sconto 40% over 65",prezzoscontato40, "euro");
 
 //età passeggero
 const eta = prompt("Inserisci l'età")
